@@ -31,7 +31,7 @@ class Main {
         }
         return false;
     }
-    static boolean solveNQ;
+    static boolean solveNQ()
     {
         int board[][] = { { 0,0,0,0},
         { 0,0,0,0},
