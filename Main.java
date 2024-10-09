@@ -13,6 +13,7 @@ class Main {
             System.out.printf("\n");
         }
     }
+    static boolean solveNQUtil(int board[][],int col)
     {
         if(col >= N){
             return true;
