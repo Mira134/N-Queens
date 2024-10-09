@@ -5,7 +5,9 @@ class Main {
 
     static int[] ld = new int[30];
     static int[] rd = new int[30];
-    static int[] cl = new int[30];{
+    static int[] cl = new int[30];
+    static void printSolution(int board[][])
+    {
         for(int i = 0;i<N;i++){
             for(int j = 0;j<N;j++){
                 System.out.printf("%d", board[i][j]);
